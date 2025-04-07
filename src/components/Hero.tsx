@@ -72,17 +72,6 @@ const Hero = () => {
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-full blur-3xl -z-10"></div>
         </div>
       </div>
-      
-      <div className="container mx-auto mt-16">
-        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 text-gray-400">
-          <span className="text-sm font-medium">Utilizado por empresas líderes</span>
-          <p className="text-lg font-bold">Grupo Bimbo</p>
-          <p className="text-lg font-bold">Cemex</p>
-          <p className="text-lg font-bold">Banorte</p>
-          <p className="text-lg font-bold">FEMSA</p>
-          <p className="text-lg font-bold">Grupo Modelo</p>
-        </div>
-      </div>
     </section>
   );
 };
