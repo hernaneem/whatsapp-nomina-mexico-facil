@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="py-12 px-4 md:py-20 overflow-hidden bg-gradient-to-b from-white to-accent">
+    <section className="py-12 px-4 md:py-20 overflow-hidden bg-gradient-to-b from-white to-accent/10">
       <div className="container mx-auto grid md:grid-cols-2 gap-8 items-center">
         <div className="space-y-6 max-w-xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
           
           <div className="pt-4 text-sm text-gray-600 flex items-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-green-500" viewBox="0 0 20 20" fill="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-secondary" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
             Sin contratos ni compromisos
@@ -35,9 +35,9 @@ const Hero = () => {
         <div className="relative">
           <div className="relative z-10 float-animation">
             <div className="bg-white p-4 rounded-lg shadow-xl max-w-md mx-auto">
-              <div className="bg-[#DCF8C6] rounded-lg p-4 mb-4">
+              <div className="bg-secondary/20 rounded-lg p-4 mb-4">
                 <div className="flex justify-between">
-                  <span className="text-gray-700 font-medium">NóminaMX Bot</span>
+                  <span className="text-gray-700 font-medium">NOWA Bot</span>
                   <span className="text-xs text-gray-600">10:30 AM</span>
                 </div>
                 <p className="text-gray-800 mt-1">Hola Juan, tu nómina de Mayo está lista.</p>
@@ -69,7 +69,7 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-mexico-green/20 to-mexico-red/20 rounded-full blur-3xl -z-10"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-full blur-3xl -z-10"></div>
         </div>
       </div>
       

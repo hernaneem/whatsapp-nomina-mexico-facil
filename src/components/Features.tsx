@@ -63,6 +63,7 @@ const Features = () => {
     <section id="features" className="py-16 md:py-24 px-4 bg-white">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
+          <span className="text-neon font-semibold text-sm uppercase tracking-wider bg-accent px-3 py-1 rounded-full inline-block mb-3">Nuevo</span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Todo lo que necesitas para tu nómina</h2>
           <p className="text-lg text-gray-600">
             Simplifica la gestión de nómina para tu empresa con nuestra plataforma integrada con WhatsApp.
